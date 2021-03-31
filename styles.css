@@ -1,0 +1,78 @@
+.firstRow {
+    height: 20px;
+}
+
+.firstRow_firstCell {
+    float: left;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(35, 190, 82);
+}
+
+.firstRow_secondCell {
+    width: auto;
+    height: 100%;
+    background-color: rgb(57, 118, 199);
+}
+
+.secondRow {
+    height: 80px;
+}
+
+.secondRow_firstSuperCell {
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 60, 0);
+}
+
+.secondRow_secondSuperCell {
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+
+.secondRow_firstSuperCell_row {
+    width: 100%;
+    height: 50%;
+}
+
+.secondRow_firstSuperCell_rowFirst_firstCell {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: darkorange;
+}
+
+.secondRow_firstSuperCell_rowFirst_secondCell {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: lightgray;
+}
+
+.secondRow_firstSuperCell_rowSecond_firstCell {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(255, 196, 0);
+}
+
+.secondRow_firstSuperCell_rowSecond_secondCell {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(88, 172, 116);
+}
+
+.secondRow_firstSuperCell_rowSecond_thirdCell {
+    float: left;
+    width: calc(100% / 3);
+    height: 100%;
+    background-color: rgb(199, 99, 32);
+}
+
+.thirdRow {
+    height: 100px;
+    background-color: rebeccapurple;
+}
